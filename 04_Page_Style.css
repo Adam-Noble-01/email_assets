@@ -1,0 +1,93 @@
+/* Body and Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f3f3; /* Light grey background */
+    color: rgb(60, 60, 60); /* Body text color */
+    font-size: 11px; /* Consistent body text size */
+    line-height: 1.1; /* Line height set to 1.1 */
+}
+
+/* Title */
+.title {
+    font-size: 20px;
+    font-weight: 600; /* Open Sans Semibold */
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(85, 80, 65); /* Heading color */
+    margin-bottom: 12px; 
+}
+
+/* H1 */
+h1 {
+    font-size: 16px;
+    font-weight: 500; /* Open Sans Medium */
+    margin: 30px 0 5px 0; /* Increase space before heading, reduce space after */
+    color: rgb(85, 80, 65); /* Heading color */
+    margin-bottom: 10px; 
+}
+
+/* H2 */
+h2 {
+    font-size: 14px;
+    font-weight: 500; /* Open Sans Medium */
+    margin: 30px 0 5px 0; /* Increase space before heading, reduce space after */
+    color: rgb(85, 80, 65); /* Heading color */
+    margin-bottom: 10px; 
+}
+
+/* H3 */
+h3 {
+    font-size: 12px;
+    font-weight: 500; /* Open Sans Medium */
+    margin: 30px 0 5px 0; /* Increase space before heading, reduce space after */
+    color: rgb(85, 80, 65); /* Heading color */
+}
+
+/* Paragraphs */
+p {
+    margin: 0 0 10px 0; /* Reduced space between paragraphs */
+    line-height: 1.1; /* Consistent line spacing */
+    font-size: 11px; /* Consistent body text size */
+    color: rgb(60, 60, 60); /* Body text color */
+}
+
+/* Lists - Square Bullets */
+ul, ol {
+    list-style-type: square; /* Square bullets for ul, default for ol */
+    margin-left: 2px; /* Reduced list indentation */
+    padding-left: 10px;
+    margin-bottom: 10px; /* Increase space between each list item */
+}
+
+ul li, ol li {
+    margin-bottom: 12px; /* Increase space between each bullet or numbered item */
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3f3f3; /* Light grey background */
+}
+
+/* Signature Image */
+footer img {
+    max-width: 300px; /* Adjusted signature image size */
+    height: auto;
+    margin-top: 10px; 
+}
+
+/* Optional: Basic layout adjustments for larger screens */
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 40px;
+    }
+
+    p {
+        font-size: 11px; /* Consistent body text size */
+    }
+}
